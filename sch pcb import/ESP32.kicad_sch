@@ -4732,7 +4732,7 @@
 	)
 	(text "RX TX\nLEDS\n"
 		(exclude_from_sim no)
-		(at 92.71 62.484 0)
+		(at 92.456 62.484 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4790,7 +4790,7 @@
 	)
 	(text "BOOT SWITCH\n"
 		(exclude_from_sim no)
-		(at 247.142 67.818 0)
+		(at 245.872 68.58 0)
 		(effects
 			(font
 				(size 1.016 1.016)
