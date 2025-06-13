@@ -5,8 +5,8 @@
 	(uuid "209e33cf-1196-4610-87df-d8354a4e71fc")
 	(paper "A4")
 	(title_block
-		(title "VECTRON")
-		(date "2025-06-10")
+		(title "VECTRON-V1")
+		(date "2025-06-13")
 		(rev "1.0.0")
 		(company "Drawn by :- Arudhran")
 	)
