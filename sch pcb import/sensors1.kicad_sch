@@ -5,10 +5,10 @@
 	(uuid "a0a7d94c-e00c-4046-854f-a6ffe96292f5")
 	(paper "A4")
 	(title_block
-		(title "AVIONICS PCB")
-		(date "2025-05-27")
+		(title "VECTRON")
+		(date "2025-06-10")
 		(rev "1.0.0")
-		(company "Done by :- Arudhran")
+		(company "Drawn by :- Arudhran")
 	)
 	(lib_symbols
 		(symbol "CMT-8530S-SMT:CMT-8530S-SMT"
@@ -4210,8 +4210,8 @@
 		(uuid 8ed7ad93-d79e-4cc3-81dc-1812ef99996c)
 	)
 	(rectangle
-		(start 112.522 167.64)
-		(end 129.794 173.99)
+		(start 110.998 169.164)
+		(end 128.27 175.514)
 		(stroke
 			(width 0)
 			(type solid)
@@ -4606,7 +4606,7 @@
 	)
 	(text "** I2C ADDRESS\nNOT SHORTED : 0X6A\n    SHORTED : 0X6B"
 		(exclude_from_sim no)
-		(at 113.284 171.196 0)
+		(at 111.76 172.72 0)
 		(effects
 			(font
 				(face "Courier New")

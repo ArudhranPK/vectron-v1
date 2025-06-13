@@ -5,10 +5,10 @@
 	(uuid "b25900d5-7cd1-4497-821f-c15efd65d19e")
 	(paper "A4")
 	(title_block
-		(title "AVIONICS PCB")
-		(date "2025-05-27")
+		(title "VECTRON")
+		(date "2025-06-10")
 		(rev "1.0.0")
-		(company "Done by :- Arudhran")
+		(company "Drawn by :- Arudhran")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
@@ -684,7 +684,7 @@
 			)
 		)
 		(instances
-			(project "avionics PCB"
+			(project "vectron"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e"
 					(page "2")
 				)
@@ -728,7 +728,7 @@
 			)
 		)
 		(instances
-			(project "avionics PCB"
+			(project "vectron"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e"
 					(page "3")
 				)
@@ -770,7 +770,7 @@
 			)
 		)
 		(instances
-			(project "avionics PCB"
+			(project "vectron"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e"
 					(page "5")
 				)
@@ -812,7 +812,7 @@
 			)
 		)
 		(instances
-			(project "avionics PCB"
+			(project "vectron"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e"
 					(page "6")
 				)
@@ -854,7 +854,7 @@
 			)
 		)
 		(instances
-			(project "avionics PCB"
+			(project "vectron"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e"
 					(page "4")
 				)
