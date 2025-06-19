@@ -650,7 +650,7 @@
 		)
 	)
 	(sheet
-		(at 17.78 16.51)
+		(at 16.51 16.51)
 		(size 63.5 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -666,7 +666,7 @@
 		)
 		(uuid "0cc951ae-9660-4988-ac39-7630f0f6a801")
 		(property "Sheetname" "power"
-			(at 17.78 15.7984 0)
+			(at 16.51 15.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -675,7 +675,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 17.78 53.9246 0)
+			(at 16.51 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -737,7 +737,7 @@
 	)
 	(sheet
 		(at 185.42 16.51)
-		(size 60.96 38.1)
+		(size 60.96 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -761,7 +761,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors2.kicad_sch"
-			(at 185.42 55.1946 0)
+			(at 185.42 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -778,7 +778,7 @@
 		)
 	)
 	(sheet
-		(at 17.78 78.74)
+		(at 16.51 78.74)
 		(size 63.5 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -794,7 +794,7 @@
 		)
 		(uuid "d419c042-2463-41ab-9a46-dcddae612d3c")
 		(property "Sheetname" "pyro"
-			(at 17.78 78.0284 0)
+			(at 16.51 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -803,7 +803,7 @@
 			)
 		)
 		(property "Sheetfile" "pyro.kicad_sch"
-			(at 17.78 118.6946 0)
+			(at 16.51 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)

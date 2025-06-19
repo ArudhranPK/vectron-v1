@@ -6297,7 +6297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10e68da1-1fbc-4c44-ac34-fb83ae033250")
-		(property "Reference" "C501"
+		(property "Reference" "C503"
 			(at 22.86 22.86 0)
 			(effects
 				(font
@@ -6351,7 +6351,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "C501")
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -6366,7 +6366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d074761-8843-488e-97b3-ce97d7be76c1")
-		(property "Reference" "C512"
+		(property "Reference" "C502"
 			(at 153.67 21.59 0)
 			(effects
 				(font
@@ -6420,7 +6420,7 @@
 		(instances
 			(project "vectron"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "C512")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -6885,7 +6885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3381b9f3-7ef0-4327-94e1-a72317485898")
-		(property "Reference" "C508"
+		(property "Reference" "C510"
 			(at 267.97 138.43 0)
 			(effects
 				(font
@@ -6939,7 +6939,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "C508")
+					(reference "C510")
 					(unit 1)
 				)
 			)
@@ -7065,7 +7065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cd0985a-3054-4f87-b8f6-082ae0c42a80")
-		(property "Reference" "#PWR0515"
+		(property "Reference" "#PWR0519"
 			(at 72.39 110.49 0)
 			(effects
 				(font
@@ -7115,7 +7115,7 @@
 		(instances
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0515")
+					(reference "#PWR0519")
 					(unit 1)
 				)
 			)
@@ -7130,7 +7130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43266e5c-ebbc-4040-9fa6-96dc2e65a1e2")
-		(property "Reference" "#PWR0519"
+		(property "Reference" "#PWR0523"
 			(at 41.91 140.97 0)
 			(effects
 				(font
@@ -7180,7 +7180,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0519")
+					(reference "#PWR0523")
 					(unit 1)
 				)
 			)
@@ -7195,7 +7195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56c68b45-b63c-4a79-a7a2-ae69fbe191d2")
-		(property "Reference" "#PWR0524"
+		(property "Reference" "#PWR0501"
 			(at 149.86 21.59 0)
 			(effects
 				(font
@@ -7245,7 +7245,7 @@
 		(instances
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0524")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -7260,7 +7260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57a51751-dc8d-4b5b-b780-c02359f825d9")
-		(property "Reference" "#PWR0511"
+		(property "Reference" "#PWR0515"
 			(at 271.78 62.23 0)
 			(effects
 				(font
@@ -7310,7 +7310,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0511")
+					(reference "#PWR0515")
 					(unit 1)
 				)
 			)
@@ -7325,7 +7325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b27e37c-b414-4e1f-a5f7-6bd37357dae3")
-		(property "Reference" "#PWR0525"
+		(property "Reference" "#PWR0511"
 			(at 166.37 41.91 0)
 			(effects
 				(font
@@ -7375,7 +7375,7 @@
 		(instances
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0525")
+					(reference "#PWR0511")
 					(unit 1)
 				)
 			)
@@ -7390,7 +7390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b7fd80a-38e3-4abc-a1c2-387073506818")
-		(property "Reference" "#PWR0521"
+		(property "Reference" "#PWR0525"
 			(at 24.13 154.94 0)
 			(effects
 				(font
@@ -7440,7 +7440,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0521")
+					(reference "#PWR0525")
 					(unit 1)
 				)
 			)
@@ -7522,7 +7522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62494e9f-0944-4316-b4e2-922d3df3b7d8")
-		(property "Reference" "#PWR0503"
+		(property "Reference" "#PWR0506"
 			(at 26.67 38.1 0)
 			(effects
 				(font
@@ -7572,7 +7572,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0503")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -7587,7 +7587,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64a0c855-01da-4bf1-9954-67fec3bc62ea")
-		(property "Reference" "C511"
+		(property "Reference" "C501"
 			(at 146.05 21.59 0)
 			(effects
 				(font
@@ -7641,7 +7641,7 @@
 		(instances
 			(project "vectron"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "C511")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -7656,7 +7656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64a95d75-9c86-47b9-9471-e4424e277142")
-		(property "Reference" "#PWR0516"
+		(property "Reference" "#PWR0520"
 			(at 215.9 128.27 0)
 			(effects
 				(font
@@ -7706,7 +7706,7 @@
 		(instances
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0516")
+					(reference "#PWR0520")
 					(unit 1)
 				)
 			)
@@ -7873,7 +7873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72e2f6bf-efd4-462f-9039-db0dff263a92")
-		(property "Reference" "#PWR0501"
+		(property "Reference" "#PWR0502"
 			(at 26.67 22.86 0)
 			(effects
 				(font
@@ -7923,7 +7923,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0501")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -8007,7 +8007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b220c13-369c-47bf-b0de-3df9f6694218")
-		(property "Reference" "C503"
+		(property "Reference" "C505"
 			(at 224.79 25.908 0)
 			(effects
 				(font
@@ -8061,7 +8061,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "C503")
+					(reference "C505")
 					(unit 1)
 				)
 			)
@@ -8076,7 +8076,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d1dff20-d409-4500-bc83-6ee1cba6bc3a")
-		(property "Reference" "C509"
+		(property "Reference" "C511"
 			(at 20.32 139.7 0)
 			(effects
 				(font
@@ -8130,7 +8130,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "C509")
+					(reference "C511")
 					(unit 1)
 				)
 			)
@@ -8214,7 +8214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8647d28c-125d-4f81-b290-6ca6adad3274")
-		(property "Reference" "#PWR0506"
+		(property "Reference" "#PWR0509"
 			(at 243.84 40.64 0)
 			(effects
 				(font
@@ -8264,7 +8264,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0506")
+					(reference "#PWR0509")
 					(unit 1)
 				)
 			)
@@ -8415,7 +8415,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90b58a80-b076-4043-a092-5dd2816f6e18")
-		(property "Reference" "#PWR0523"
+		(property "Reference" "#PWR0527"
 			(at 93.98 196.85 0)
 			(effects
 				(font
@@ -8465,7 +8465,7 @@
 		(instances
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0523")
+					(reference "#PWR0527")
 					(unit 1)
 				)
 			)
@@ -8480,7 +8480,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92b5640f-bac7-4189-bae6-0eedcea3b7ca")
-		(property "Reference" "#PWR0514"
+		(property "Reference" "#PWR0518"
 			(at 92.71 92.71 0)
 			(effects
 				(font
@@ -8530,7 +8530,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0514")
+					(reference "#PWR0518")
 					(unit 1)
 				)
 			)
@@ -8707,7 +8707,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bd2ecb6-175c-4561-b302-725de7b7e5c1")
-		(property "Reference" "C502"
+		(property "Reference" "C504"
 			(at 30.48 22.86 0)
 			(effects
 				(font
@@ -8761,7 +8761,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "C502")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -8912,7 +8912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad744511-439f-4eb6-8ae0-d6172b4263ef")
-		(property "Reference" "C505"
+		(property "Reference" "C507"
 			(at 267.97 62.23 0)
 			(effects
 				(font
@@ -8966,7 +8966,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "C505")
+					(reference "C507")
 					(unit 1)
 				)
 			)
@@ -8981,7 +8981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aed6b978-cd6f-4803-b370-aff41aa29c70")
-		(property "Reference" "J505"
+		(property "Reference" "J504"
 			(at 187.96 21.59 0)
 			(effects
 				(font
@@ -9045,7 +9045,7 @@
 		(instances
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "J505")
+					(reference "J504")
 					(unit 1)
 				)
 			)
@@ -9060,7 +9060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afba4559-f412-4ceb-9579-4e40ccc2b510")
-		(property "Reference" "#PWR0517"
+		(property "Reference" "#PWR0521"
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -9110,7 +9110,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0517")
+					(reference "#PWR0521")
 					(unit 1)
 				)
 			)
@@ -9287,7 +9287,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b058d66e-a69f-418e-92c4-da28cdeaae1f")
-		(property "Reference" "C506"
+		(property "Reference" "C508"
 			(at 275.59 62.23 0)
 			(effects
 				(font
@@ -9341,7 +9341,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "C506")
+					(reference "C508")
 					(unit 1)
 				)
 			)
@@ -9356,7 +9356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4d91b80-7759-446f-8336-b6a50cf93149")
-		(property "Reference" "#PWR0518"
+		(property "Reference" "#PWR0522"
 			(at 24.13 139.7 0)
 			(effects
 				(font
@@ -9406,7 +9406,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0518")
+					(reference "#PWR0522")
 					(unit 1)
 				)
 			)
@@ -9421,7 +9421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdd6894d-6460-4501-823c-a756f36d9efd")
-		(property "Reference" "C510"
+		(property "Reference" "C512"
 			(at 27.94 139.7 0)
 			(effects
 				(font
@@ -9475,7 +9475,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "C510")
+					(reference "C512")
 					(unit 1)
 				)
 			)
@@ -9490,7 +9490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1e06041-28e7-4b1f-a494-39d6fe3054ac")
-		(property "Reference" "#PWR0510"
+		(property "Reference" "#PWR0514"
 			(at 229.87 52.07 0)
 			(effects
 				(font
@@ -9540,7 +9540,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0510")
+					(reference "#PWR0514")
 					(unit 1)
 				)
 			)
@@ -9555,7 +9555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2051dcb-f45e-42a3-81c3-65d5594ecea1")
-		(property "Reference" "#PWR0520"
+		(property "Reference" "#PWR0524"
 			(at 264.16 153.67 0)
 			(effects
 				(font
@@ -9605,7 +9605,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0520")
+					(reference "#PWR0524")
 					(unit 1)
 				)
 			)
@@ -9620,7 +9620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2184dcd-bf04-477c-8cb7-12c31f0408cf")
-		(property "Reference" "J504"
+		(property "Reference" "J505"
 			(at 107.95 149.86 0)
 			(effects
 				(font
@@ -9694,7 +9694,7 @@
 		(instances
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "J504")
+					(reference "J505")
 					(unit 1)
 				)
 			)
@@ -9709,7 +9709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c27944fc-1125-48f0-834f-0ac145a725f6")
-		(property "Reference" "C507"
+		(property "Reference" "C509"
 			(at 260.35 138.43 0)
 			(effects
 				(font
@@ -9763,7 +9763,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "C507")
+					(reference "C509")
 					(unit 1)
 				)
 			)
@@ -9778,7 +9778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3ed8839-b4db-46a4-84bd-b82e3a2dec7b")
-		(property "Reference" "C504"
+		(property "Reference" "C506"
 			(at 243.84 25.908 0)
 			(effects
 				(font
@@ -9832,7 +9832,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "C504")
+					(reference "C506")
 					(unit 1)
 				)
 			)
@@ -9847,7 +9847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8d6b4fa-e856-4e8f-b380-2a0a99debcff")
-		(property "Reference" "#PWR0527"
+		(property "Reference" "#PWR0503"
 			(at 163.83 25.4 0)
 			(effects
 				(font
@@ -9897,7 +9897,7 @@
 		(instances
 			(project "vectron"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0527")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -9912,7 +9912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb4031b5-aab1-48c5-ab0d-ffaa6fa0fced")
-		(property "Reference" "#PWR0508"
+		(property "Reference" "#PWR0512"
 			(at 72.39 52.07 0)
 			(effects
 				(font
@@ -9962,7 +9962,7 @@
 		(instances
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0508")
+					(reference "#PWR0512")
 					(unit 1)
 				)
 			)
@@ -10054,7 +10054,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6697036-8d81-4b7b-bc0e-ce7eb494ce04")
-		(property "Reference" "#PWR0526"
+		(property "Reference" "#PWR0505"
 			(at 149.86 36.83 0)
 			(effects
 				(font
@@ -10104,7 +10104,7 @@
 		(instances
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0526")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -10119,7 +10119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d92b02bf-cbf3-4c8a-bfde-f0f4dc944a2b")
-		(property "Reference" "#PWR0507"
+		(property "Reference" "#PWR0510"
 			(at 262.89 40.64 0)
 			(effects
 				(font
@@ -10169,7 +10169,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0507")
+					(reference "#PWR0510")
 					(unit 1)
 				)
 			)
@@ -10184,7 +10184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db9f0a2f-8035-4226-af8d-927ef97aa5c4")
-		(property "Reference" "#PWR0522"
+		(property "Reference" "#PWR0526"
 			(at 215.9 163.83 0)
 			(effects
 				(font
@@ -10234,7 +10234,7 @@
 		(instances
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0522")
+					(reference "#PWR0526")
 					(unit 1)
 				)
 			)
@@ -10249,7 +10249,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dda860c9-c811-468d-8e41-26912637b654")
-		(property "Reference" "#PWR0512"
+		(property "Reference" "#PWR0516"
 			(at 271.78 77.47 0)
 			(effects
 				(font
@@ -10299,7 +10299,7 @@
 		(instances
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0512")
+					(reference "#PWR0516")
 					(unit 1)
 				)
 			)
@@ -10314,7 +10314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e726a4e5-ca9c-4777-a9a6-59bf5a56afc0")
-		(property "Reference" "#PWR0513"
+		(property "Reference" "#PWR0517"
 			(at 229.87 88.9 0)
 			(effects
 				(font
@@ -10364,7 +10364,7 @@
 		(instances
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0513")
+					(reference "#PWR0517")
 					(unit 1)
 				)
 			)
@@ -10379,7 +10379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee8c3207-7667-4e17-8ab3-6d260164a078")
-		(property "Reference" "#PWR0509"
+		(property "Reference" "#PWR0513"
 			(at 85.09 52.07 0)
 			(effects
 				(font
@@ -10429,7 +10429,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0509")
+					(reference "#PWR0513")
 					(unit 1)
 				)
 			)
@@ -10445,7 +10445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eee1e7f9-3121-42ab-969f-191034b33260")
-		(property "Reference" "#PWR0504"
+		(property "Reference" "#PWR0507"
 			(at 95.25 40.64 0)
 			(effects
 				(font
@@ -10495,7 +10495,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0504")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -10510,7 +10510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0eeef7a-b731-4203-abc0-8ec0c1fb71d2")
-		(property "Reference" "#PWR0505"
+		(property "Reference" "#PWR0508"
 			(at 224.79 40.64 0)
 			(effects
 				(font
@@ -10560,7 +10560,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0505")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -10575,7 +10575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff0eb941-0801-4f62-b54f-8e2c4a13e0be")
-		(property "Reference" "#PWR0502"
+		(property "Reference" "#PWR0504"
 			(at 271.78 34.29 0)
 			(effects
 				(font
@@ -10625,7 +10625,7 @@
 		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/b8a11d17-1c6c-4128-b7d5-3797221c7c03"
-					(reference "#PWR0502")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
