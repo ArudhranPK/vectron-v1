@@ -8,7 +8,7 @@
 		(title "VECTRON-V1")
 		(date "2025-06-13")
 		(rev "1.0.0")
-		(company "Drawn by :- Arudhran")
+		(comment 9 "ARUDHRAN")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM358"
@@ -1878,6 +1878,12 @@
 		(uuid "d54c27ec-79d3-47d9-b294-2b2ef43a4a58")
 	)
 	(junction
+		(at 69.85 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5ac7494-0be9-4038-b067-d303b9b9c578")
+	)
+	(junction
 		(at 54.61 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1894,6 +1900,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea2e31ed-27a4-4d08-b78a-13d405edd23d")
+	)
+	(junction
+		(at 69.85 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f891e221-c4c9-46e1-92ee-4985d84dc000")
 	)
 	(wire
 		(pts
@@ -1914,6 +1926,26 @@
 			(type default)
 		)
 		(uuid "00de6c20-4f48-443f-b77b-94b490ca16cf")
+	)
+	(wire
+		(pts
+			(xy 69.85 92.71) (xy 69.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a8561c-d291-49a4-8b2a-ab1ea40fc00a")
+	)
+	(wire
+		(pts
+			(xy 95.25 21.59) (xy 96.52 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d7eac6-fd66-4126-b1a9-c044992ab8ab")
 	)
 	(wire
 		(pts
@@ -2067,6 +2099,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 129.54) (xy 20.32 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394e6642-d0e2-4aea-b0a1-3bd3e45b0571")
+	)
+	(wire
+		(pts
 			(xy 96.52 21.59) (xy 96.52 30.48)
 		)
 		(stroke
@@ -2207,13 +2249,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 82.55) (xy 86.36 87.63)
+			(xy 69.85 102.87) (xy 69.85 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "785bda84-049a-4011-9bce-37619f896eb8")
+		(uuid "7ba50ed0-259d-425b-aa91-9f0d6a31f5b6")
 	)
 	(wire
 		(pts
@@ -2227,13 +2269,13 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 129.54) (xy 20.32 134.62)
+			(xy 95.25 73.66) (xy 96.52 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f51db5e-ea5e-4fe6-8e60-36b2cac29f2b")
+		(uuid "833a9521-dd9c-4077-a1fc-2813e2d8152e")
 	)
 	(wire
 		(pts
@@ -2247,13 +2289,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 30.48) (xy 86.36 35.56)
+			(xy 30.48 132.08) (xy 34.29 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "895aad37-8591-4b05-a7ba-551bff9724f1")
+		(uuid "86c015a8-96be-49a6-9564-9b8c4958701a")
 	)
 	(wire
 		(pts
@@ -2307,13 +2349,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 73.66) (xy 99.06 73.66)
+			(xy 86.36 73.66) (xy 87.63 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "97676659-073f-48e3-afa9-24d729dc801c")
+	)
+	(wire
+		(pts
+			(xy 69.85 50.8) (xy 69.85 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03568fc-90f7-450c-8d20-8429988e55ee")
 	)
 	(wire
 		(pts
@@ -2377,7 +2429,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 134.62) (xy 34.29 134.62)
+			(xy 20.32 137.16) (xy 34.29 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2397,7 +2449,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 73.66) (xy 86.36 74.93)
+			(xy 86.36 73.66) (xy 86.36 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2469,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 21.59) (xy 86.36 22.86)
+			(xy 86.36 21.59) (xy 86.36 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2547,6 +2599,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 134.62) (xy 34.29 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5585313-6329-4094-8e73-50259f6ab8ba")
+	)
+	(wire
+		(pts
 			(xy 120.65 38.1) (xy 128.27 38.1)
 		)
 		(stroke
@@ -2627,7 +2689,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 72.39) (xy 99.06 73.66)
+			(xy 69.85 43.18) (xy 69.85 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f639f1a7-017e-4797-b90c-cdf6c098b3be")
+	)
+	(wire
+		(pts
+			(xy 96.52 72.39) (xy 96.52 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2647,7 +2719,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 21.59) (xy 96.52 21.59)
+			(xy 86.36 21.59) (xy 87.63 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2909,7 +2981,7 @@
 	)
 	(global_label "DRAIN2"
 		(shape input)
-		(at 34.29 132.08 180)
+		(at 30.48 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2919,7 +2991,7 @@
 		)
 		(uuid "ce7c9e06-0979-4218-9fca-a132915c7d43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.5314 132.08 0)
+			(at 20.7214 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +3003,7 @@
 	)
 	(global_label "DRAIN1"
 		(shape input)
-		(at 34.29 137.16 180)
+		(at 30.48 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2941,7 +3013,7 @@
 		)
 		(uuid "ebd61b64-d435-4ae0-9970-5762009e9b83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.5314 137.16 0)
+			(at 20.7214 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,75 +3309,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 86.36 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2154a3b0-c5c2-4c48-bcbc-e22002edaeb7")
-		(property "Reference" "R606"
-			(at 85.09 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 85.09 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 84.582 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "15ba3da5-c497-4c6e-a47e-6881638593d4")
-		)
-		(pin "1"
-			(uuid "fa405545-462d-4953-bc5c-c50a6f24ef22")
-		)
-		(instances
-			(project "avionics PCB"
-				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/d419c042-2463-41ab-9a46-dcddae612d3c"
-					(reference "R606")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 48.26 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3578,6 +3581,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 91.44 21.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3de881bf-308e-423a-98f9-1aac3b15483f")
+		(property "Reference" "R601"
+			(at 91.44 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 91.44 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 91.44 23.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "952f01a3-709f-4eec-879f-1968c572b12d")
+		)
+		(pin "1"
+			(uuid "f0c35440-6602-4b05-9e24-1038596f6f33")
+		)
+		(instances
+			(project "vectron"
+				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/d419c042-2463-41ab-9a46-dcddae612d3c"
+					(reference "R601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 54.61 52.07 0)
 		(unit 1)
@@ -3777,6 +3847,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 99.06 90.17 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3784,7 +3855,7 @@
 		(dnp no)
 		(uuid "52879429-a5c6-4996-a6a3-0fceae72e099")
 		(property "Reference" "U601"
-			(at 99.06 85.09 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3864,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 99.06 95.25 0)
+			(at 99.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,6 +4068,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 69.85 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b6376a9-ba66-4e01-9777-eee5c81dbb04")
+		(property "Reference" "R611"
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.628 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ccfc4b9b-dd13-4f38-81c2-ddc3c62f9576")
+		)
+		(pin "1"
+			(uuid "6d14e39c-8977-45d5-b47a-975cd7d67ba9")
+		)
+		(instances
+			(project "vectron"
+				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/d419c042-2463-41ab-9a46-dcddae612d3c"
+					(reference "R611")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 77.47 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4057,6 +4198,72 @@
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/d419c042-2463-41ab-9a46-dcddae612d3c"
 					(reference "R604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "622284b2-a6e5-490b-947e-3ca7b0f6c49f")
+		(property "Reference" "#PWR0615"
+			(at 69.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46ee428e-9885-41ac-9d92-2742fbb27eaa")
+		)
+		(instances
+			(project "vectron"
+				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/d419c042-2463-41ab-9a46-dcddae612d3c"
+					(reference "#PWR0615")
 					(unit 1)
 				)
 			)
@@ -4683,7 +4890,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 99.06 72.39 0)
+		(at 96.52 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4691,7 +4898,7 @@
 		(dnp no)
 		(uuid "8deed11e-c552-45d6-899b-841e142bc987")
 		(property "Reference" "#PWR0608"
-			(at 99.06 76.2 0)
+			(at 96.52 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4907,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 99.06 68.834 0)
+			(at 96.52 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +4915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 72.39 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 72.39 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +4933,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 99.06 72.39 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,15 +5085,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 86.36 26.67 0)
+		(at 69.85 99.06 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ab7f339f-7edc-4e99-9a44-7fd56920c62b")
-		(property "Reference" "R601"
-			(at 85.09 25.4 0)
+		(uuid "a382c489-5867-4997-9698-0180fab4c96f")
+		(property "Reference" "R612"
+			(at 71.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,8 +5102,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 85.09 27.94 0)
+		(property "Value" "10k"
+			(at 71.12 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +5112,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 84.582 26.67 90)
+			(at 71.628 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +5121,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 26.67 0)
+			(at 69.85 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +5130,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 26.67 0)
+			(at 69.85 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,15 +5139,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0f89c36a-f24b-48ca-acaf-1883fcf4c254")
+			(uuid "970c8c98-1538-4ac8-bd30-90395cb59f2a")
 		)
 		(pin "1"
-			(uuid "bbb60f72-9e06-40f5-b4a6-60f33a1bfeee")
+			(uuid "45509fbd-910a-4d61-8798-3f68b026ccbe")
 		)
 		(instances
-			(project "avionics PCB"
+			(project "vectron"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/d419c042-2463-41ab-9a46-dcddae612d3c"
-					(reference "R601")
+					(reference "R612")
 					(unit 1)
 				)
 			)
@@ -5024,6 +5232,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 99.06 38.1 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5031,7 +5240,7 @@
 		(dnp no)
 		(uuid "c3b56418-79bc-4266-99c6-6d1971a1b3b2")
 		(property "Reference" "U601"
-			(at 99.06 30.988 0)
+			(at 99.06 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +5249,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 99.06 43.18 0)
+			(at 99.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,6 +5446,73 @@
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/d419c042-2463-41ab-9a46-dcddae612d3c"
 					(reference "C601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5c350e7-d308-4ead-9dfd-c569b7a4c60d")
+		(property "Reference" "R606"
+			(at 91.44 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 91.44 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 91.44 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "330f5752-bba7-457a-a6c5-2423d0b8e001")
+		)
+		(pin "1"
+			(uuid "2d179e0f-d9c8-4785-8cd9-22c6ebd1bdbb")
+		)
+		(instances
+			(project "vectron"
+				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/d419c042-2463-41ab-9a46-dcddae612d3c"
+					(reference "R606")
 					(unit 1)
 				)
 			)
@@ -5459,6 +5735,72 @@
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/d419c042-2463-41ab-9a46-dcddae612d3c"
 					(reference "U601")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7108d18-9fe8-4c65-88cd-1c1c880cd85a")
+		(property "Reference" "#PWR0616"
+			(at 69.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2205306-db3a-4424-b6df-796d0ab0abab")
+		)
+		(instances
+			(project "vectron"
+				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/d419c042-2463-41ab-9a46-dcddae612d3c"
+					(reference "#PWR0616")
+					(unit 1)
 				)
 			)
 		)

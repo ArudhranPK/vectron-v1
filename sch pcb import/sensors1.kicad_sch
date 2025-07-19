@@ -8,7 +8,7 @@
 		(title "VECTRON-V1")
 		(date "2025-06-13")
 		(rev "1.0.0")
-		(company "Drawn by :- Arudhran")
+		(comment 9 "ARUDHRAN")
 	)
 	(lib_symbols
 		(symbol "CMT-8530S-SMT:CMT-8530S-SMT"
@@ -4286,7 +4286,7 @@
 	)
 	(text "MMC5983MA (REDUNDANT)"
 		(exclude_from_sim no)
-		(at 196.85 163.576 0)
+		(at 196.85 162.56 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -13063,7 +13063,6 @@
 	(symbol
 		(lib_id "Transistor_BJT:SS8050")
 		(at 175.26 96.52 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13071,7 +13070,7 @@
 		(dnp no)
 		(uuid "ba152744-2c6e-4a79-afb1-e0dfc2df51a5")
 		(property "Reference" "Q401"
-			(at 179.705 94.615 0)
+			(at 179.705 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13080,7 +13079,7 @@
 			)
 		)
 		(property "Value" "SS8050"
-			(at 179.705 97.155 0)
+			(at 179.705 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13089,7 +13088,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 180.34 89.154 0)
+			(at 180.34 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13100,7 +13099,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
-			(at 180.34 91.694 0)
+			(at 180.34 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13110,7 +13109,7 @@
 			)
 		)
 		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-			(at 209.296 94.234 0)
+			(at 209.296 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)

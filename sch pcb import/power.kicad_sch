@@ -8,7 +8,7 @@
 		(title "VECTRON-V1")
 		(date "2025-06-13")
 		(rev "1.0.0")
-		(company "Drawn by :- Arudhran")
+		(comment 9 "ARUDHRAN")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
@@ -3675,16 +3675,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 22.86) (xy 57.15 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bcca58d-9e86-4dbc-b5b4-e54938395183")
-	)
-	(wire
-		(pts
 			(xy 269.24 49.53) (xy 276.86 49.53)
 		)
 		(stroke
@@ -3982,6 +3972,16 @@
 			(type default)
 		)
 		(uuid "8d524435-6603-406a-bcc6-db7fc60dcfe5")
+	)
+	(wire
+		(pts
+			(xy 57.15 22.86) (xy 57.15 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904e94a1-d049-41dc-8427-4d3afadd47d9")
 	)
 	(wire
 		(pts

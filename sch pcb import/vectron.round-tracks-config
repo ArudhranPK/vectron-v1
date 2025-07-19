@@ -1,2 +1,9 @@
 Default	True	2.0	3
-False	True	False
+GPS_RF	True	2.0	3
+I2C	True	2.0	3
+LORA_RF	True	2.0	3
+Power	True	2.0	3
+SPI	True	2.0	3
+UART	True	2.0	3
+USB	True	2.0	3
+False	False	False

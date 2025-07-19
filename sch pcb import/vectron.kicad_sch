@@ -8,7 +8,7 @@
 		(title "VECTRON-V1")
 		(date "2025-06-13")
 		(rev "1.0.0")
-		(company "Drawn by :- Arudhran")
+		(comment 9 "ARUDHRAN")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
@@ -867,4 +867,25 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "drawnby.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCjCkUWAFafYyEA1w4WHCSqx1mCzrBErr1UFAnx+4M2IpX8cEv+/3+oJwJZAFMAXgAlaL7o
+				uTz/zxA9/+PBudo2sSeDJec7Thoya9X+/IhJbmLSkFm2/YTTL/kXAICAABW9p9XaKk6FR+eQaNX5
+				fDC76R6DZq29br1tnjjNPioAAoI0ROKMoIhDhW050826hmFY7VUAvHl2bGe30xOtbNVf8g8/q1d2
+				u2amUhZN/KCjnrOb+RSf7Nq1CoknGbaTj7/98z2aojODXfWbXpanePv2aDp2dbW2P4OfVlV77p/L
+				4JAajF7VD5b57HR2FKxYugpX8RO+jOQZNna9TGcZuUXTqoZYC+ut2gnFu1i6DKfBMTwIipBZWVdr
+				NwvRCS3VfVyD02EuFw9FaIU/2Mg5m7K/6WKbOvhTESi7AQGB4d5bN23TEpiV2b6uzEJgWys2i55o
+				OMtF3Gy77oXd7bKIWy/7TTqJyQTR8mTUu5lwFQmFkXh8XOXrusdF0y4Lk3CTLuI5sEPEJPi4E1a1
+				XeTzPvLxd+21I+4PgIqg8UyGmJESKUiSFDpwRKTmqhvOw4aWBWZRQuAujZYrbLBQBQHATYc2Zfm3
+				Eo69zsd5liNStkM9Tr1MhlS/W8LW8L5iQQKDMdPTt0yWQ4NkhE0+LovsXoZ8So5BbrB4EF4SOl0e
+				khTCzDE+O3mysrN5ITnRDvz5rvxhAj6UmT2EKMQka9gSgH4Ehj7fneXic/aVZ40QEOhTp3yZIFgQ
+				j4qCmKgczYBrl1INk1Xj1EF8QP+UyTFpKQeZ6VP2oIYBDX3qQasgzU8ue8p9ZLVJlxr9QYIQ3SH1
+				olHZK2dxQG6f5ThsBMg0wiItOv61V+bba3i0CwJCWiUxNbDpCxfykGD+6CZ1SsPLtuhh/mrQcMBh
+				Fo2WO1t0kNa2abmYkaJnfsZeo1eTmqZjZ/0bhou4jZw0IB2DXgU=|
+			)
+			(checksum "7B2771A299185B03AD1E56A709A1FEF8")
+		)
+	)
 )

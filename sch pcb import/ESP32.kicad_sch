@@ -8,7 +8,7 @@
 		(title "VECTRON-V1")
 		(date "2025-06-13")
 		(rev "1.0.0")
-		(company "Drawn by :- Arudhran")
+		(comment 9 "ARUDHRAN")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -5609,7 +5609,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 20.32) (xy 27.94 20.32)
+			(xy 24.13 20.32) (xy 27.94 20.32)
 		)
 		(stroke
 			(width 0)
@@ -8153,7 +8153,7 @@
 	)
 	(global_label "USBD+"
 		(shape output)
-		(at 86.36 156.21 0)
+		(at 86.36 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8163,7 +8163,7 @@
 		)
 		(uuid "4e350916-3d59-4ade-93dd-5619e113bc1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.9976 156.21 0)
+			(at 95.9976 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8219,7 +8219,7 @@
 	)
 	(global_label "USBD-"
 		(shape output)
-		(at 86.36 153.67 0)
+		(at 86.36 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8229,7 +8229,7 @@
 		)
 		(uuid "63173fc1-072d-4a79-839d-4ae4fc240d29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.9976 153.67 0)
+			(at 95.9976 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8835,7 +8835,7 @@
 	)
 	(global_label "VCCIO"
 		(shape input)
-		(at 26.67 20.32 180)
+		(at 24.13 20.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8845,7 +8845,7 @@
 		)
 		(uuid "ce133c43-0eb7-4603-8b0d-3546d826c305")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.1209 20.32 0)
+			(at 15.5809 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9120,6 +9120,12 @@
 			(uuid "645e9253-9ed8-43fd-bfcb-b42afc119e9e")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "Q301")
@@ -9185,6 +9191,12 @@
 			(uuid "3f30abd3-6e0a-477b-8293-6cd4a2904c37")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0316")
@@ -9262,6 +9274,12 @@
 			(uuid "2fe7f646-2ce9-450f-80c2-4caf3fd83fda")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "D301")
@@ -9327,6 +9345,12 @@
 			(uuid "ae373996-3175-4b11-98df-4d98b719f6e6")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0322")
@@ -9392,6 +9416,12 @@
 			(uuid "8e01ca5e-a58d-45c7-b1e2-1718af8131dc")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0315")
@@ -9461,6 +9491,12 @@
 			(uuid "1b9c98c8-4e18-463d-adfd-59c7a7567156")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "C310")
@@ -9530,6 +9566,12 @@
 			(uuid "33a808ec-6364-4200-92fd-beb1589cafde")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "R304")
@@ -9595,6 +9637,12 @@
 			(uuid "e088f24f-e6ec-4a2a-a38f-6b1db9be25a5")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0312")
@@ -9660,6 +9708,12 @@
 			(uuid "4e8dea0d-2088-4302-a639-dda70d24e81b")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0329")
@@ -9725,6 +9779,12 @@
 			(uuid "26791484-f1fc-4c1d-8282-46236e62e8e3")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0309")
@@ -9790,6 +9850,12 @@
 			(uuid "df843275-6a43-49e1-b9ee-913bce21bcc7")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0326")
@@ -9855,6 +9921,12 @@
 			(uuid "bba6fe25-8796-41c6-aa2e-a22ce3c8af87")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0331")
@@ -9920,6 +9992,12 @@
 			(uuid "212c0d33-867d-4512-8958-0d4b023d41f8")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0307")
@@ -9987,6 +10065,12 @@
 			(uuid "c12c11ed-5778-47bb-aedd-26a78976d632")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "R311")
@@ -10020,7 +10104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:Switch_Tactile_SMD_4.5x4.5mm_TL3315NF160Q"
+		(property "Footprint" "Tact switch:tact switch 3.4x2.5mm"
 			(at 274.32 26.67 0)
 			(effects
 				(font
@@ -10152,6 +10236,12 @@
 			(uuid "ff1213e8-98a6-43fc-a86c-87582ddd98f9")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "S?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "S301")
@@ -10219,6 +10309,12 @@
 			(uuid "cf45f8ae-8cb1-43c1-b83b-dfefc231146e")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "R310")
@@ -10284,6 +10380,12 @@
 			(uuid "7aa1cd15-c0e5-42bb-a6fe-6a3fd0053693")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0304")
@@ -10396,6 +10498,12 @@
 			(uuid "8c8e5d61-5f36-41da-a796-58e59bcb8509")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "J301")
@@ -10461,6 +10569,12 @@
 			(uuid "3c98c91e-bf47-4eb5-a0e4-15aa4ea6ee4f")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0301")
@@ -10526,6 +10640,12 @@
 			(uuid "0f7ca3d5-6396-4d5f-9191-bc4dabc359a9")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0330")
@@ -10591,6 +10711,12 @@
 			(uuid "fb85c20c-19d0-4505-8a93-9c45840c8229")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0327")
@@ -10658,6 +10784,12 @@
 			(uuid "7d97814f-9e05-494d-8e01-b10ab0271fa0")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "R313")
@@ -10725,6 +10857,12 @@
 			(uuid "a60859b2-9e9d-4b8a-8109-f5536c099802")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "R307")
@@ -10790,6 +10928,12 @@
 			(uuid "9dc46edf-2de9-41c4-8713-b1348f999f43")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0305")
@@ -10857,6 +11001,12 @@
 			(uuid "30b47d37-007f-46c9-a6b2-8095cf1d8465")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "R308")
@@ -10926,6 +11076,12 @@
 			(uuid "85dfc42b-5409-41bc-b22f-6111c97ca0f9")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "C302")
@@ -10994,6 +11150,12 @@
 			(uuid "732f37c6-292f-49cb-b1c3-d26372a26dee")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "R309")
@@ -11063,6 +11225,12 @@
 			(uuid "2fe2923d-356b-4d14-b789-bcda926b3255")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "C304")
@@ -11128,6 +11296,12 @@
 			(uuid "c1101d03-9106-49fe-abd4-be7920726fb1")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0324")
@@ -11195,6 +11369,12 @@
 			(uuid "189231fb-f246-494b-847d-0e501f9fefd9")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "JP301")
@@ -11260,6 +11440,12 @@
 			(uuid "1cec8ad1-d6ca-4aaf-9bef-a376be4c8d13")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0313")
@@ -11325,6 +11511,12 @@
 			(uuid "0e825a09-dc87-4f7c-b45b-5f6a1b6b4765")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#FLG0301")
@@ -11390,6 +11582,12 @@
 			(uuid "395639cf-a880-4f8f-a3a5-843d60d38c8a")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0303")
@@ -11455,6 +11653,12 @@
 			(uuid "6df4a863-7ecc-45f2-add3-59fc8a24aaae")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0314")
@@ -11520,6 +11724,12 @@
 			(uuid "c3e45a75-8966-427f-8ee3-ba5b4017dd08")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0323")
@@ -11585,6 +11795,12 @@
 			(uuid "a2003de8-6fc1-4440-a4b4-191af53dfc3f")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0328")
@@ -11652,6 +11868,12 @@
 			(uuid "dcc7a45c-5e80-4eb6-a46f-12e35d236f00")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "R312")
@@ -11717,6 +11939,12 @@
 			(uuid "7eb955ff-0f9a-4766-8e4c-4ccee69518ca")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0321")
@@ -11786,6 +12014,12 @@
 			(uuid "62b653a0-0160-4b49-a6c4-ff6a0c89e0e7")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "C303")
@@ -11854,6 +12088,12 @@
 			(uuid "f558bade-425d-459c-9b8c-cfdb50b026de")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "JP303")
@@ -11923,6 +12163,12 @@
 			(uuid "fbac9314-b0e7-4252-b2c8-1a9d32e7e93d")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "C312")
@@ -11991,6 +12237,12 @@
 			(uuid "3a2d63f3-c970-4f66-8d45-fc57e751751f")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "R306")
@@ -12056,6 +12308,12 @@
 			(uuid "8f9032b5-2fce-47e5-88f8-5dd8e0ba28bf")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0308")
@@ -12132,6 +12390,12 @@
 			(uuid "645e9253-9ed8-43fd-bfcb-b42afc119e9f")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "Q302")
@@ -12208,6 +12472,12 @@
 			(uuid "e00cc483-1eb7-435c-9b3c-3d96688c31a9")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "D303")
@@ -12273,6 +12543,12 @@
 			(uuid "89c05a4d-b8f0-4412-ba75-893557e1a5b4")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0311")
@@ -12342,6 +12618,12 @@
 			(uuid "df27de90-dfc3-4a09-baf5-0e70ba522673")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "R301")
@@ -12411,6 +12693,12 @@
 			(uuid "c808747d-80b3-4ee5-bd6b-15de26fcd9d7")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "C313")
@@ -12485,6 +12773,12 @@
 			(uuid "419c6642-6f68-4021-99e8-602467b4f58b")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "J302")
@@ -12669,6 +12963,12 @@
 			(uuid "fcb329da-71a6-4a9a-a695-4ddba6ee5dec")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "U302")
@@ -12746,6 +13046,12 @@
 			(uuid "67c4a653-e1d0-4b9b-bd94-990cbfec012f")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "D304")
@@ -12779,7 +13085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:Switch_Tactile_SMD_4.5x4.5mm_TL3315NF160Q"
+		(property "Footprint" "Tact switch:tact switch 3.4x2.5mm"
 			(at 267.97 54.61 0)
 			(effects
 				(font
@@ -12911,6 +13217,12 @@
 			(uuid "0d966c93-866c-469f-8f7a-8c57152b60cf")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "S?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "S302")
@@ -12976,6 +13288,12 @@
 			(uuid "c963ab59-382b-4ebb-86b6-6fe42330acda")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0302")
@@ -13044,6 +13362,12 @@
 			(uuid "7eaa9164-104e-44a6-8e82-7e0ecd33a80f")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "JP302")
@@ -13113,6 +13437,12 @@
 			(uuid "91c2d263-c1a2-4393-89f1-4972d11d2815")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "C305")
@@ -13182,6 +13512,12 @@
 			(uuid "e0f940af-561d-45cb-84c5-218fc19895d8")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "C311")
@@ -13247,6 +13583,12 @@
 			(uuid "93205ef3-83ff-46a2-aa9b-5ee97855a15c")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0306")
@@ -13316,6 +13658,12 @@
 			(uuid "4d84dc45-fad0-4abc-862b-709c61085314")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "C307")
@@ -13393,78 +13741,15 @@
 			(uuid "47e921aa-ec6a-4004-9abe-f5d1745742f1")
 		)
 		(instances
-			(project "avionics PCB"
-				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
-					(reference "D302")
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "D?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 27.94 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca41ddbe-9354-4da6-a5a4-32ffee30901d")
-		(property "Reference" "C301"
-			(at 24.892 24.638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uf"
-			(at 24.892 26.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 28.9052 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 27.94 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fde76c5b-3bc1-4eed-8aad-8acd58b9c97e")
-		)
-		(pin "2"
-			(uuid "9804e6cd-8f12-4551-bc01-3f6b6c468072")
-		)
-		(instances
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
-					(reference "C301")
+					(reference "D302")
 					(unit 1)
 				)
 			)
@@ -13603,9 +13888,84 @@
 			(uuid "8e8a3752-35d0-4add-a3e7-fd0aa618c33a")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "U301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 27.94 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb599e02-75bd-4813-9172-d8ca337fff3c")
+		(property "Reference" "C301"
+			(at 27.94 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nf"
+			(at 27.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 28.9052 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 27.94 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "351ec95e-1503-47a8-9f72-8888655c61f0")
+		)
+		(pin "2"
+			(uuid "c5c2f5aa-6d1c-4d6c-abb6-22798b75e383")
+		)
+		(instances
+			(project "vectron"
+				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -13670,6 +14030,12 @@
 			(uuid "ae29d15a-94f8-44a9-97f5-3a8ddc945682")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "R302")
@@ -13735,6 +14101,12 @@
 			(uuid "2c4b63e6-27bb-4715-a22f-1d71f9818ce9")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0310")
@@ -13800,6 +14172,12 @@
 			(uuid "88ec6f67-4a3c-491b-9df1-e0f5b73f716b")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0318")
@@ -13865,6 +14243,12 @@
 			(uuid "40c16015-fa59-4cf5-adf1-cce266f4a2fe")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0325")
@@ -13930,6 +14314,12 @@
 			(uuid "72e18a46-3b5d-4453-b4f5-7fb927469c1f")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0320")
@@ -13999,6 +14389,12 @@
 			(uuid "0b760521-14dc-4937-a746-fdbda6109ae6")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "C306")
@@ -14066,6 +14462,12 @@
 			(uuid "264b132a-a3f6-4fa8-a040-ae3eacb83b3b")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "R303")
@@ -14151,6 +14553,12 @@
 			(uuid "f2634390-7645-41af-a7ba-6414d9f8e028")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "U303")
@@ -14218,6 +14626,12 @@
 			(uuid "687d4c7f-8aba-41d5-a9c4-ee0b103ff80f")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "R314")
@@ -14283,6 +14697,12 @@
 			(uuid "66058fb8-622e-4757-8a95-6fd205ee6bf5")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0317")
@@ -14350,6 +14770,12 @@
 			(uuid "434f2e91-ce32-4dfb-aaae-758f3f2a919a")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "R305")
@@ -14419,6 +14845,12 @@
 			(uuid "486a7e3a-b51e-4bbf-a08e-cecb6294bbd6")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "C308")
@@ -14484,6 +14916,12 @@
 			(uuid "a63874da-6e96-419c-bd49-4d899e192746")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "#PWR0319")
@@ -14553,12 +14991,45 @@
 			(uuid "b5617427-c394-4fb5-ae87-6803719e85e7")
 		)
 		(instances
+			(project "ESP32"
+				(path "/209e33cf-1196-4610-87df-d8354a4e71fc"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "avionics PCB"
 				(path "/b25900d5-7cd1-4497-821f-c15efd65d19e/523ff4c5-2660-4359-891b-149312bfc486"
 					(reference "C309")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "drawnby.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCjCkUWAFafYyEA1w4WHCSqx1mCzrBErr1UFAnx+4M2IpX8cEv+/3+oJwJZAFMAXgAlaL7o
+				uTz/zxA9/+PBudo2sSeDJec7Thoya9X+/IhJbmLSkFm2/YTTL/kXAICAABW9p9XaKk6FR+eQaNX5
+				fDC76R6DZq29br1tnjjNPioAAoI0ROKMoIhDhW050826hmFY7VUAvHl2bGe30xOtbNVf8g8/q1d2
+				u2amUhZN/KCjnrOb+RSf7Nq1CoknGbaTj7/98z2aojODXfWbXpanePv2aDp2dbW2P4OfVlV77p/L
+				4JAajF7VD5b57HR2FKxYugpX8RO+jOQZNna9TGcZuUXTqoZYC+ut2gnFu1i6DKfBMTwIipBZWVdr
+				NwvRCS3VfVyD02EuFw9FaIU/2Mg5m7K/6WKbOvhTESi7AQGB4d5bN23TEpiV2b6uzEJgWys2i55o
+				OMtF3Gy77oXd7bKIWy/7TTqJyQTR8mTUu5lwFQmFkXh8XOXrusdF0y4Lk3CTLuI5sEPEJPi4E1a1
+				XeTzPvLxd+21I+4PgIqg8UyGmJESKUiSFDpwRKTmqhvOw4aWBWZRQuAujZYrbLBQBQHATYc2Zfm3
+				Eo69zsd5liNStkM9Tr1MhlS/W8LW8L5iQQKDMdPTt0yWQ4NkhE0+LovsXoZ8So5BbrB4EF4SOl0e
+				khTCzDE+O3mysrN5ITnRDvz5rvxhAj6UmT2EKMQka9gSgH4Ehj7fneXic/aVZ40QEOhTp3yZIFgQ
+				j4qCmKgczYBrl1INk1Xj1EF8QP+UyTFpKQeZ6VP2oIYBDX3qQasgzU8ue8p9ZLVJlxr9QYIQ3SH1
+				olHZK2dxQG6f5ThsBMg0wiItOv61V+bba3i0CwJCWiUxNbDpCxfykGD+6CZ1SsPLtuhh/mrQcMBh
+				Fo2WO1t0kNa2abmYkaJnfsZeo1eTmqZjZ/0bhou4jZw0IB2DXgU=|
+			)
+			(checksum "7B2771A299185B03AD1E56A709A1FEF8")
 		)
 	)
 )
